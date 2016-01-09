@@ -42,7 +42,7 @@ public class FakeCallMainActivity extends Activity implements OnTouchListener {
 		Random rnd = new Random();
 		int randomIdx = rnd.nextInt(callerImgId.length);
 		
-		// set random Imag resource to Imageview
+		// set random Image resource to Imageview
 		imgV.setBackgroundResource(callerImgId[randomIdx]);
 		imgV.setOnTouchListener(this);
 	}
